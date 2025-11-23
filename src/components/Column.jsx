@@ -37,6 +37,9 @@ export default function Column({
 
       {/* Board Column */}
       <div className={`${color} p-3 rounded-lg shadow w-full -mt-4`}>
+        <div
+          className="w-9 h-1 relative bg-black left-27 bottom-8 ">
+          </div>  
         <h2 className="text-lg font-semibold text-gray-800 mb-2 text-center">
           {title}
         </h2>
